@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4dbe0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_1);
+      }
+    </style>
+    <filter id="Ellipse_1" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#d4dbe0" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="next-icn" transform="translate(12 8)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -12, -8)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" class="cls-1" cx="24" cy="24" r="24" transform="translate(12 8)"/>
+    </g>
+    <path id="Shape_1" data-name="Shape 1" class="cls-2" d="M1421.879,572.489l-.03.007H1434.7l-4.039-4.061a1.067,1.067,0,0,1,0-1.5l.628-.631a1.049,1.049,0,0,1,1.484,0l6.923,6.946a1.065,1.065,0,0,1,0,1.494l-6.923,6.946a1.05,1.05,0,0,1-1.484,0l-.628-.631a1.045,1.045,0,0,1-.306-.744,1.013,1.013,0,0,1,.306-.73l4.085-4.084h-12.878a1.09,1.09,0,0,1-1.065-1.081v-.892A1.069,1.069,0,0,1,1421.879,572.489Z" transform="translate(-1406.4 -550)"/>
+  </g>
+</svg>
