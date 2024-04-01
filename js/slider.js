@@ -74,6 +74,19 @@ function contactValid() {
   } else {
       document.getElementById("lname-error").innerHTML = "";
   }
+   // Email validation
+   var email = form.email.trim(); // Trim the email input
+   var atposition = email.indexOf("@");
+   var dotposition = email.lastIndexOf(".");
+   if (email === "") {
+       document.getElementById("email-error").innerHTML = "Please enter your email address";
+       return false;
+   } else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
+       document.getElementById("email-error").innerHTML = "Please enter a valid email address";
+       return false;
+   } else {
+       document.getElementById("email-error").innerHTML = "";
+   }
 
   // Message validation
   var message = form.message.trim(); // Trim the message input
@@ -84,19 +97,7 @@ function contactValid() {
       document.getElementById("message-error").innerHTML = "";
   }
 
-  // Email validation
-  var email = form.email.trim(); // Trim the email input
-  var atposition = email.indexOf("@");
-  var dotposition = email.lastIndexOf(".");
-  if (email === "") {
-      document.getElementById("email-error").innerHTML = "Please enter your email address";
-      return false;
-  } else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
-      document.getElementById("email-error").innerHTML = "Please enter a valid email address";
-      return false;
-  } else {
-      document.getElementById("email-error").innerHTML = "";
-  }
+ 
 
   const serviceID = "service_xlvz1gs"; // Replace "your_service_id" with your actual service ID
   const templateID = "template_o78aobb"; // Replace "your_template_id" with your actual template ID
