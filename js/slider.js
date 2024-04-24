@@ -99,8 +99,8 @@ function contactValid() {
 
  
 
-  const serviceID = "service_xlvz1gs"; // Replace "your_service_id" with your actual service ID
-  const templateID = "template_o78aobb"; // Replace "your_template_id" with your actual template ID
+  const serviceID = "service_oneo1s1"; // Replace "your_service_id" with your actual service ID
+  const templateID = "template_vxh4cpl"; // Replace "your_template_id" with your actual template ID
 
   emailjs.send(serviceID, templateID, form).then(res=>{
     document.getElementById("name").value = "";
