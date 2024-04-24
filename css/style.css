@@ -262,6 +262,12 @@ a {
   transition: all 0.3s ease-in-out;
   outline: none;
 }
+.copy a:hover, a:focus{
+  color:#ea4723;
+
+
+  }
+
 a:hover, a:focus {
   color: #24262d;
   text-decoration: none;
