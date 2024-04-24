@@ -2549,3 +2549,14 @@ textarea.form-control {
   left: 5%;
 } */
 /* our project sections  */
+  
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+ .no-border p {
+    text-align:justify;
+  }
+}
+
+
