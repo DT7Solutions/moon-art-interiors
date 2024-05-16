@@ -2558,6 +2558,9 @@ textarea.form-control {
     text-align:justify;
   }
 }
-
+ .ptag{overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp:4 !important;
+  -webkit-box-orient: vertical !important;}
 
 
