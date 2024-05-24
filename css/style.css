@@ -253,7 +253,7 @@ hr.more_margin {
 
 /* General links color */
 a {
-  color: #978667;
+  color: #978667 !important;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -263,7 +263,7 @@ a {
   outline: none;
 }
 .copy a:hover, a:focus{
-  color:#ea4723;
+  color:#ea4723 !important;
 
 
   }
