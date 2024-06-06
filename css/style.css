@@ -1159,8 +1159,8 @@ img.jarallax-img.kenburns-2 {
   -ms-transform: translateY(20px);
   -o-transform: translateY(20px);
   transform: translateY(20px);
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   -moz-transition: all 0.05s ease;
   -o-transition: all 0.05s ease;
   -webkit-transition: all 0.05s ease;
